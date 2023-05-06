@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    text-align: center;
+    display: inline-block;
+}

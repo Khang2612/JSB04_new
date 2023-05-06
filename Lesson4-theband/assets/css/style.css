@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav li a{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 24px;
+    line-height: 46px;
+}
+
+.nav li a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.search{
+    display: inline-block;
+    color: white;
+    padding: 0px 20px;
+    float: right;
+    line-height: 46px;
+    font-size: 20px;
+}
+
+.search:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 60px;
+}
+
+.section-content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+}
+
+.center{
+    text-align: center;
+}
+.section-heading{
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.sub-heading{
+    text-align: center;
+    padding-bottom: 10px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.text{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid gray;
+    display: block;
+    padding: 8px;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+
+.button{
+    padding: 14px 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.member-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.member-name{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.member-img{
+    border-radius: 10px;
+}
+.footer{
+
+}
+
+.container-map{
+    width: 100%;
+}
