@@ -18,3 +18,4 @@ else if(b<6.5){
 else if(b<5){
     console.log("Kém");
 }
+S

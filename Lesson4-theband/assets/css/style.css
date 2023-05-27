@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,22 +9,22 @@ html {
     scroll-behavior: smooth;
 }
 
-.header{
+.header {
     height: 46px;
     background-color: black;
     position: fixed;
     width: 100%;
 }
 
-.nav{
+.nav {
     display: inline-block;
 }
 
-.nav li{
+.nav li {
     display: inline-block;
 }
 
-.nav li a{
+.nav li a {
     display: inline-block;
     color: white;
     text-transform: uppercase;
@@ -33,12 +33,12 @@ html {
     line-height: 46px;
 }
 
-.nav li a:hover{
+.nav li a:hover {
     background-color: gainsboro;
     color: black;
 }
 
-.search{
+.search {
     display: inline-block;
     color: white;
     padding: 0px 20px;
@@ -47,7 +47,7 @@ html {
     font-size: 20px;
 }
 
-.search:hover{
+.search:hover {
     background-color: red;
     cursor: pointer;
 }
